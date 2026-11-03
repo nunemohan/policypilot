@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     ollama_base_url: str = "http://localhost:11434"
     chunk_size: int = 800
     chunk_overlap: int = 150
+    llm_model: str = "llama3.2:3b"
+    top_k: int = 4
 
 
 settings = Settings()
