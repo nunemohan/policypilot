@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-ollama
+langchain-qdrant
+langchain-text-splitters
+langgraph
+pymupdf
+pydantic-settings
+fastapi
+uvicorn
